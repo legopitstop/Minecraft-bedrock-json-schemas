@@ -1,6 +1,14 @@
 {
   "$schema": "https://raw.githubusercontent.com/DaanV2/JsonSchemaValidationCompressor.Net/master/Schema/Compression%20Schema.json",
   "Files": [
+    { "Source": "./general/manifest.json", "Destination": "../general/manifest.json" },
+    { "Source": "./general/world_x_packs.json", "Destination": "../general/world_x_packs.json" },
+
+    { "Source": "./language/language_names.json", "Destination": "../language/language_names.json" },
+    { "Source": "./language/languages.json", "Destination": "../language/languages.json" },
+
+    { "Source": "./skinpacks/skins.json", "Destination": "../skinpacks/skins.json" },
+
     { "Source": "./behavior/animation_controllers/animation_controller.json", "Destination": "../behavior/animation_controllers/animation_controller.json" },
     { "Source": "./behavior/animations/animations.json", "Destination": "../behavior/animations/animations.json" },
     { "Source": "./behavior/biomes/biomes.json", "Destination": "../behavior/biomes/biomes.json" },
@@ -11,9 +19,8 @@
     { "Source": "./behavior/feature_rules/feature_rules.json", "Destination": "../behavior/feature_rules/feature_rules.json" },
     { "Source": "./behavior/features/features.json", "Destination": "../behavior/features/features.json" },
     { "Source": "./behavior/functions/tick.json", "Destination": "../behavior/functions/tick.json" },
+    { "Source": "./behavior/item_catalog/crafting_item_catalog.json", "Destination": "../behavior/item_catalog/crafting_item_catalog.json" },
     { "Source": "./behavior/items/items.json", "Destination": "../behavior/items/items.json" },
-    { "Source": "./behavior/lighting/global.json", "Destination": "../behavior/lighting/global.json" },
-    { "Source": "./behavior/lighting/atmospherics.json", "Destination": "../behavior/lighting/atmospherics.json" },
     { "Source": "./behavior/loot_tables/loot_tables.json", "Destination": "../behavior/loot_tables/loot_tables.json" },
     { "Source": "./behavior/recipes/recipes.json", "Destination": "../behavior/recipes/recipes.json" },
     { "Source": "./behavior/spawn_rules/spawn_rules.json", "Destination": "../behavior/spawn_rules/spawn_rules.json" },
@@ -22,13 +29,6 @@
     { "Source": "./behavior/worldgen/processors/processor_list.json", "Destination": "../behavior/worldgen/processors/processor_list.json" },
     { "Source": "./behavior/worldgen/structure_sets/structure_set.json", "Destination": "../behavior/worldgen/structure_sets/structure_set.json" },
     { "Source": "./behavior/worldgen/template_pools/template_pool.json", "Destination": "../behavior/worldgen/template_pools/template_pool.json" },
-    { "Source": "./behavior/item_catalog/crafting_item_catalog.json", "Destination": "../behavior/item_catalog/crafting_item_catalog.json" },
-
-    { "Source": "./general/manifest.json", "Destination": "../general/manifest.json" },
-    { "Source": "./general/world_x_packs.json", "Destination": "../general/world_x_packs.json" },
-
-    { "Source": "./language/language_names.json", "Destination": "../language/language_names.json" },
-    { "Source": "./language/languages.json", "Destination": "../language/languages.json" },
 
     { "Source": "./resource//block_culling/block_culling.json", "Destination": "../resource/block_culling/block_culling.json" },
     { "Source": "./resource/animation_controllers/animation_controller.json", "Destination": "../resource/animation_controllers/animation_controller.json" },
@@ -55,8 +55,6 @@
     { "Source": "./resource/textures/ui_texture_definition.json", "Destination": "../resource/textures/ui_texture_definition.json" },
     { "Source": "./resource/ui/_global_variables.json", "Destination": "../resource/ui/_global_variables.json" },
     { "Source": "./resource/ui/_ui_defs.json", "Destination": "../resource/ui/_ui_defs.json" },
-    { "Source": "./resource/ui/ui.json", "Destination": "../resource/ui/ui.json" },
-    { "Source": "./resource/ui/ui.json", "Destination": "../resource/ui/ui.json" },
-    { "Source": "./skinpacks/skins.json", "Destination": "../skinpacks/skins.json" }
+    { "Source": "./resource/ui/ui.json", "Destination": "../resource/ui/ui.json" }
   ]
 }
